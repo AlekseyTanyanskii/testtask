@@ -1,0 +1,18 @@
+<table>
+  <thead>
+  <tr class="d-flex">
+    <th class="col-sm-3">title</th>
+    <th class="col-sm-3">url</th>
+    <th class="col-sm-3">create_at</th>
+    <th class="col-sm-3">author</th>
+  </tr>
+  </thead>
+  <tbody style="max-height: 200px; overflow-y: auto">
+  <tr *ngFor="let data of dataTable" class="d-flex">
+    <td class="col-sm-3" (click)="openModal(data.url)">{{data.title}}</td>
+    <td class="col-sm-3">{{data.url}}</td>
+    <td class="col-sm-3">{{data.create_at}}</td>
+    <td class="col-sm-3">{{data.author}}</td>
+  </tr>
+  </tbody>
+</table>

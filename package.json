@@ -1,0 +1,25 @@
+{
+  "name": "testtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ng serve --disable-host-check",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlekseyTanyanskii/testtask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlekseyTanyanskii/testtask/issues"
+  },
+  "homepage": "https://github.com/AlekseyTanyanskii/testtask#readme",
+  "dependencies": {
+    "@angular/cli": "^8.0.2",
+    "angular-cli": "^1.0.0-beta.28.3",
+    "typescript": "^3.5.1"
+  }
+}
